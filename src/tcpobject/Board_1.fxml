@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1000.0" translateX="50.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="57.0" layoutY="545.0" strokeType="INSIDE" strokeWidth="2.0" translateX="-2.0" width="57.0">
+            <fill>
+                <RadialGradient centerX="0.6222222222222222" centerY="0.2333333333333335" cycleMethod="REFLECT" radius="0.9534883720930232">
+                    <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#12b6b8" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+            <stroke>
+                <LinearGradient cycleMethod="REFLECT" endX="0.4904761904761905" endY="0.7190476190476192" startX="0.7238095238095239" startY="0.1380952380952381">
+                    <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#e1d5d5" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </stroke></Rectangle>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="55.0" layoutX="845.0" layoutY="545.0" strokeType="INSIDE" strokeWidth="2.0" translateX="1.0" translateY="1.0" width="55.0">
+            <fill>
+                <RadialGradient centerX="0.28888888888888886" centerY="0.44285714285714306" cycleMethod="REFLECT" radius="1.0">
+                    <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#12b6b8" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+            <stroke>
+                <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="0.8714285714285716" startX="0.7047619047619049" startY="0.919047619047619">
+                    <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#e1d5d5" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </stroke></Rectangle>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="57.0" layoutX="845.0" layoutY="100.0" strokeType="INSIDE" strokeWidth="2.0" translateX="1.0" translateY="-1.0" width="57.0">
+            <fill>
+                <RadialGradient centerX="0.26666666666666666" centerY="0.6666666666666669" cycleMethod="REFLECT" radius="1.0">
+                    <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#12b6b8" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+            <stroke>
+                <LinearGradient cycleMethod="REFLECT" endX="0.4904761904761905" endY="0.33333333333333337" startX="0.1619047619047619" startY="0.32857142857142857">
+                    <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#d0c1c1" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </stroke></Rectangle>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="57.0" layoutY="100.0" strokeType="INSIDE" strokeWidth="2.0" translateX="-1.0" translateY="-1.0" width="57.0">
+            <fill>
+                <RadialGradient centerX="0.638888888888889" centerY="0.6857142857142858" cycleMethod="REFLECT" radius="0.9534883720930232">
+                    <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#12b6b8" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+            <stroke>
+                <LinearGradient cycleMethod="REFLECT" endX="0.6857142857142857" endY="0.38095238095238093" startX="0.4238095238095238" startY="0.3809523809523809">
+                    <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="#12b892" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </stroke></Rectangle>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="500.0" layoutY="101.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="899.0">
+            <fill>
+                <RadialGradient centerX="0.5240205523442518" centerY="0.47126436781609193" cycleMethod="REFLECT" focusAngle="-70.02" radius="0.3347070944951428">
+                    <stops>
+                        <Stop color="#9c5ee8" />
+                        <Stop color="#9c5ee8" offset="0.007662835249042145" />
+                  <Stop color="#ff0505" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill></Rectangle>
+        <Polygon layoutX="55.0" layoutY="550.0" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="20.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="370.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="380.0" />
+                <Double fx:value="15.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="15.0" />
+            </points>
+            <fill>
+                <LinearGradient cycleMethod="REFLECT" endX="0.5095238095238095" endY="0.3571428571428571" startX="0.5095238095238095" startY="0.7761904761904762">
+                    <stops>
+                        <Stop color="#430fff" />
+                        <Stop color="#ff0505" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill>
+            <effect>
+                <DropShadow spread="0.44" />
+            </effect>
+        </Polygon>
+        <Polygon layoutX="464.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="0.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="380.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="360.0" />
+                <Double fx:value="15.0" />
+                <Double fx:value="10" />
+                <Double fx:value="15" />
+
+            </points>
+            <fill>
+                <LinearGradient cycleMethod="REFLECT" endX="0.5095238095238095" endY="0.3571428571428571" startX="0.5095238095238095" startY="0.7761904761904762">
+                    <stops>
+                        <Stop color="#0f5dff" />
+                        <Stop color="#ff0505" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill>
+            <effect>
+                <DropShadow spread="0.43" />
+            </effect>
+        </Polygon>
+        <Polygon layoutX="35.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="0.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="390" />
+                <Double fx:value="15.0" />
+                <Double fx:value="370.0" />
+                <Double fx:value="15" />
+                <Double fx:value="20" />
+            </points>
+            <fill>
+            <LinearGradient endX="0.14285714285714285" endY="0.23809523809523803" startX="0.9047619047619049" startY="0.23809523809523786">
+               <stops>
+                  <Stop color="#430fff" />
+                  <Stop color="#ff0505" offset="1.0" />
+               </stops>
+            </LinearGradient>
+            </fill>
+            <effect>
+                <DropShadow spread="0.47" />
+            </effect>
+        </Polygon>
+        <Polygon layoutX="465.0" layoutY="550.0" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="10.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="360.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="380.0" />
+                <Double fx:value="15.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="15" />
+            </points>
+            <fill>
+                <LinearGradient cycleMethod="REFLECT" endX="0.5095238095238095" endY="0.3571428571428571" startX="0.5095238095238095" startY="0.7761904761904762">
+                    <stops>
+                        <Stop color="#430fff" />
+                        <Stop color="#ff0505" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill>
+            <effect>
+                <DropShadow spread="0.42" />
+            </effect>
+        </Polygon>
+        <Polygon fx:id="p1" layoutX="55.0" layoutY="135.0" rotate="180.0" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="10.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="360.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="380.0" />
+                <Double fx:value="15.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="15" />
+            </points>
+            <fill>
+                <LinearGradient cycleMethod="REFLECT" endX="0.5095238095238095" endY="0.3571428571428571" startX="0.5095238095238095" startY="0.7761904761904762">
+                    <stops>
+                        <Stop color="#430fff" />
+                        <Stop color="#ff0505" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill>
+            <effect>
+                <DropShadow spread="0.44" />
+            </effect>
+        </Polygon>
+        <Polygon layoutX="850.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="0.0" />
+                <Double fx:value="20.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="370.0" />
+                <Double fx:value="15.0" />
+                <Double fx:value="390.0" />
+                <Double fx:value="15" />
+                <Double fx:value="0.0" />
+            </points>
+            <fill>
+                <LinearGradient endX="0.14285714285714285" endY="0.23809523809523803" startX="0.9047619047619049" startY="0.23809523809523786">
+                    <stops>
+                        <Stop color="#430fff" />
+                        <Stop color="#ff0505" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill>
+            <effect>
+                <DropShadow spread="0.44" />
+            </effect>
+        </Polygon>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="390.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="35.0">
+         <fill>
+            <LinearGradient endX="0.18719211822660098" endY="0.34975369458128075" startX="0.9704433497536945" startY="0.3497536945812808">
+               <stops>
+                  <Stop color="#c9c0c0" />
+                  <Stop color="#04b218" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+        <Rectangle height="35.0" layoutX="55.0" layoutY="565.0" stroke="BLACK" strokeType="INSIDE" width="790.0">
+         <fill>
+            <LinearGradient endX="0.5862068965517241" endY="0.5812807881773399" startX="0.5862068965517242">
+               <stops>
+                  <Stop color="#c9c0c0" />
+                  <Stop color="#04b218" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="35.0" layoutX="55.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" width="790.0">
+         <fill>
+            <LinearGradient endX="0.39901477832512305" endY="0.33004926108374383" startX="0.39901477832512317" startY="1.0">
+               <stops>
+                  <Stop color="#c9c0c0" />
+                  <Stop color="#04b218" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+        <Circle layoutX="35.0" layoutY="135.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+            <fill>
+                <RadialGradient centerX="0.7444444444444444" centerY="0.8333333333333334" cycleMethod="REFLECT" focusDistance="-0.023255813953488413" radius="0.8255813953488371">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="0.007662835249042145" />
+                        <Stop color="#a80505" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill></Circle>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="390.0" layoutX="865.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="35.0">
+         <fill>
+            <LinearGradient endX="0.4729064039408868" endY="0.35960591133004927" startY="0.35960591133004927">
+               <stops>
+                  <Stop color="#c9c0c0" />
+                  <Stop color="#05b016" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+        <Circle layoutX="865.0" layoutY="135.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+            <fill>
+                <RadialGradient centerX="0.311111111111111" centerY="0.7857142857142858" cycleMethod="REFLECT" focusDistance="-0.023255813953488413" radius="0.7093023255813953">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="0.007662835249042145" />
+                        <Stop color="#a80505" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+        </Circle>
+        <Circle layoutX="450.0" layoutY="127.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+            <fill>
+                <RadialGradient centerX="0.5166666666666666" centerY="0.8142857142857143" cycleMethod="REFLECT" focusDistance="-0.023255813953488413" radius="0.7093023255813953">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#940000" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+        </Circle>
+        <Circle layoutX="865.0" layoutY="565.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+            <fill>
+                <RadialGradient centerX="0.41111111111111104" centerY="0.36190476190476195" cycleMethod="REFLECT" focusDistance="-0.023255813953488413" radius="0.8255813953488371">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="0.007662835249042145" />
+                        <Stop color="#a80505" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+        </Circle>
+        <Circle layoutX="450.0" layoutY="574.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+            <fill>
+                <RadialGradient centerX="0.48333333333333317" centerY="0.3238095238095239" cycleMethod="REFLECT" focusDistance="-0.023255813953488413" radius="0.5581395348837209">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#800505" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+        </Circle>
+        <Circle layoutX="35.0" layoutY="565.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+            <fill>
+                <RadialGradient centerX="0.6444444444444444" centerY="0.44761904761904764" cycleMethod="REFLECT" focusDistance="-0.023255813953488413" radius="0.7906976744186046">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="0.007662835249042145" />
+                        <Stop color="#a80505" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+        </Circle>
+        <Rectangle fx:id="mypic" arcHeight="5.0" arcWidth="5.0" fill="#f0f8ff" height="98.0" layoutX="17.0" layoutY="-1.0" stroke="#c2d707" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="3.0" width="199.0">
+            <effect>
+                <DropShadow height="68.44" radius="32.9775" width="65.47" />
+            </effect>
+        </Rectangle>
+        <Rectangle fx:id="opppic" arcHeight="5.0" arcWidth="5.0" fill="#f0f8ff" height="101.0" layoutX="685.0" layoutY="-2.0" stroke="#c2d707" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="3.0" width="202.0">
+            <effect>
+                <DropShadow height="68.44" radius="32.9775" width="65.47" />
+            </effect>
+        </Rectangle>
+    </children>
+</Pane>

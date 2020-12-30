@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="550.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jfx.Switch">
+    <Button fx:id="backButton" layoutX="610" layoutY="520" mnemonicParsing="false" onAction="#goBack" prefHeight="20.0" prefWidth="80.0" text="Back" />
+
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tcpobject.Page_0_Controller">
+   <children>
+      <ImageView fitHeight="660.0" fitWidth="1019.0" layoutX="-8.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@page_0_bg.png" />
+         </image></ImageView>
+      <Button layoutX="121.0" layoutY="295.0" mnemonicParsing="false" onAction="#methodStartGame" prefHeight="50.0" prefWidth="214.0" style="-fx-background-color: #04f904;" text="Start Game">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="121.0" layoutY="361.0" mnemonicParsing="false" onAction="#methodRules" prefHeight="50.0" prefWidth="214.0" style="-fx-background-color: #04f904;" text="Rules">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="123.0" layoutY="426.0" mnemonicParsing="false" onAction="#methodSelectBoard" prefHeight="50.0" prefWidth="214.0" style="-fx-background-color: #04f904;" text="Select Board">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="123.0" layoutY="491.0" mnemonicParsing="false" onAction="#methodBoardSpeed" prefHeight="50.0" prefWidth="214.0" style="-fx-background-color: #04f904;" text="Board Speed">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="124.0" layoutY="554.0" mnemonicParsing="false" onAction="#methodCredit" prefHeight="50.0" prefWidth="214.0" style="-fx-background-color: #04f904;" text="Credit">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="745.0" layoutY="518.0" mnemonicParsing="false" onAction="#methodExit" prefHeight="78.0" prefWidth="160.0" style="-fx-background-color: #fc0511;" text="EXIT" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="36.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
