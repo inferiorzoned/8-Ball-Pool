@@ -1,1 +1,1 @@
-Me and my project collaborator [shahrarswapnil](https://github.com/shahrarswapnil) built this multiplayer networking game using Java and JavaFX. 
+Me and my project collaborator [shahrarswapnil](https://github.com/shahrarswapnil) built this multiplayer networking game using Java(Backend) and JavaFX(Frontend). We used Java Socket Programming to maintain the server-client connection.
